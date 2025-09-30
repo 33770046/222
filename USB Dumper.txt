@@ -1,0 +1,1 @@
+x64（x86\Win32）：窗口 (/SUBSYSTEM:WINDOWS)；mainCRTStartup
