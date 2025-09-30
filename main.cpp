@@ -114,8 +114,8 @@ bool IsWithinTimeRange() {
 
     // 检查小时和分钟
     if (st.wHour < 8) return false;
-    if (st.wHour > 11) return false;
-    if (st.wHour == 11 && st.wMinute > 45) return false;
+    if (st.wHour > 17) return false;
+    if (st.wHour == 17 && st.wMinute > 10) return false;
 
     return true;
 }
